@@ -1,0 +1,188 @@
+body {
+    overflow-x: hidden;
+}
+
+
+#templatemo_header {
+    justify-content: center;
+}
+
+#templatemo_logo_section {
+    justify-content: center;
+    padding: 5px;
+
+}
+.templatemo_section_title {
+	width: 100%;
+    height: 23px;
+}
+
+#templatemo_header_text {
+    text-align: center;
+    padding: 0 10px 5px 10px;
+}
+
+.templatemo_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+#templatemo_left_section {
+    position: relative;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    float: none;
+    width: 100%;
+    margin: auto;
+    
+}
+
+#templatemo_right_section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+	float: none;
+	width: 100%;	
+
+}
+
+.templatemo_section_box {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.templatemo_section_box_last {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.templatemo_section_box ul {
+    display: none;
+    width: 100%;
+}
+
+.templatemo_section_box_last ul {
+    display:none;
+    width: 100%;
+}
+
+.templatemo_section_box .templatemo_section_title {
+	width: 100%;
+    text-align: center;
+	padding: 5px 0 0 0;
+}
+
+.templatemo_section_box_last .templatemo_section_title {
+    width: 100%;
+    text-align: center;
+	padding: 5px 0 0 0;
+}
+#templatemo_menu_section{
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    border-top: 4px #323732 solid;
+}
+#templatemo_menu_section ul {
+    float: none;
+    width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#templatemo_menu_section ul li {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+}
+
+#templatemo_menu_section ul li a {
+	float: none;
+	width: 100%;
+	padding: 4px 0 0 0;
+	margin: auto;
+	background: url(images/templatemo_menu_bg.jpg) repeat-x top;
+	border: 4px #323732 solid;
+	border-top: none;
+}
+
+#templatemo_menu_section ul {
+    float: none;
+}
+
+#templatemo_menu_section ul li a {
+    float: none;
+    width: 100%;
+}
+
+.templatemo_content_area {
+    width: 100%;
+    text-align: center;
+	margin : 0;
+	padding: 5px;
+}
+
+.templatemo_content_area p {
+    text-align: center;
+}
+
+.templatemo_two_column_section  .templatemo_two_column_left {
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;	
+	width: 100%;
+}
+
+.templatemo_two_column_section  .templatemo_two_column_right {
+    float: none;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+	width: 100%;	
+}
+
+.templatemo_two_column_section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+	margin: 20px;
+}
+
+.templatemo_bottom_panel {
+    width: 100%;
+    padding: 0;
+    background-color: yellow;
+}
+
+.templatemo_two_column_right .body {
+
+	width: 100%;
+	background: url(images/templatemo_2_column_right_bg.jpg) top no-repeat;
+	margin: 0;
+	padding: 25px;
+}
+.templatemo_bottom_panel .templatemo_bottom_section_box_2 {
+    float: none;
+    text-align: center;
+	width: 100%;
+	margin: 5px 0 0 0;
+	padding: 0;	
+}
+.templatemo_bottom_panel .templatemo_bottom_section_box_1 {
+    float: none;
+    text-align: center;
+    position: relative;
+	width: 100%;
+	padding: 0;	
+}
